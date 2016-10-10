@@ -1,0 +1,8 @@
+#
+# Project specific
+#
+/*.sublime-project
+/*.sublime-workspace
+/node_modules
+/*.log
+/Gruntfile.js
