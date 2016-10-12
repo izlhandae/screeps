@@ -1,5 +1,6 @@
 import { roleHarvester } from "./roleharvester";
 import { roleUpgrader } from "./roleupgrader";
+import { roleBuilder } from "./roleBuilder";
 
 
 export function loop()
@@ -12,5 +13,7 @@ export function loop()
             roleHarvester.run(creep);
         if (creep.memory.role == "upgrader")
             roleUpgrader.run(creep);
+        if (creep.memory.role == "builder")
+            roleBuilder.run(creep);
     }
 }

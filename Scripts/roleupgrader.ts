@@ -2,7 +2,7 @@ var roleUpgrader =
 {
     run(creep:Creep)
     {
-        if (creep.carry.energy == 0)
+        if (creep.carry.energy < creep.carryCapacity)
         {
             var sources:Source[] = creep.room.find(FIND_SOURCES) as Source[];
             
