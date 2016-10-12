@@ -1,5 +1,3 @@
-
-
 class Greeter {
     constructor(public greeting: string) { }
     greet() {
@@ -7,6 +5,6 @@ class Greeter {
     }
 };
 
-var greeter = new Greeter("COOL");
+var greeter = new Greeter("Hello, World");
 
 console.log(greeter.greet());
